@@ -98,4 +98,4 @@ var mainState = {
 };
 
 game.state.add('main', mainState);  
-game.state.start('main'); 
+game.state.start('main');
