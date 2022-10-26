@@ -71,7 +71,7 @@ var mainState = {
         this.pipes.forEachAlive(function(p){
             p.body.velocity.x = 0;
         }, this);
-    },
+    },  
 
     restartGame: function() {
         game.state.start('main');
